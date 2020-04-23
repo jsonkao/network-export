@@ -1,0 +1,10 @@
+{
+    "name": "Class Network Helper",
+    "version": "0.1",
+    "description": "",
+    "background": {
+      "scripts": ["index.js"],
+      "persistent": false
+    }
+    "manifest_version": 2
+}
