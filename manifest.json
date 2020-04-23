@@ -1,10 +1,16 @@
-{
+ {
     "name": "Class Network Helper",
     "version": "0.1",
     "description": "",
+    "permissions": ["storage", "declarativeContent", "activeTab"],
     "background": {
-      "scripts": ["index.js"],
+      "scripts": ["background.js"],
       "persistent": false
-    }
+    },
+    "page_action": {
+      "default_popup": "popup.html",
+      "default_icon": {}
+    },
+    "icons": {},
     "manifest_version": 2
-}
+  }
